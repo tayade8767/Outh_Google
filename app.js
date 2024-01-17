@@ -29,7 +29,7 @@ app.use(session({
   saveUninitialized: false,
   cookie:{maxAge:2*60*60*1000},
   store : mongostore.create({
-    mongoUrl: 'mongodb://0.0.0.0/googleouth',
+    mongoUrl: 'mongodb+srv://akashtayade5668:tayade8767@cluster0.nqzcjpj.mongodb.net/?retryWrites=true&w=majority',
     autoRemove: 'disabled'
   })
   // cookie:MaxAge(2*60*60*1000)       when user logged in for this time

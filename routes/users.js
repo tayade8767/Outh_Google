@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://0.0.0.0/googleouth');
+mongoose.connect('mongodb+srv://akashtayade5668:tayade8767@cluster0.nqzcjpj.mongodb.net/?retryWrites=true&w=majority');
 
 const userSchema = mongoose.Schema({
   email : String,
